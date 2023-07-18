@@ -1,0 +1,95 @@
+/* Tablet Screen */
+@media screen and (max-width:960px){
+    /* Shared Style */
+    main{
+        margin: 20px;
+    }
+    .header_section{
+        flex-direction: column;
+    }
+
+    /* Play like Section*/
+    .play_like_section{
+        padding: 20px 55px;
+        margin-bottom: 40px;
+    }
+    .play_like_section_img img{
+        width: 100%;
+    }
+    .play_like_section h2{
+        font-size: 5rem;
+    }
+    .play_like_section h3{
+        font-size: 2.5rem;
+    }
+
+    /* online games section */
+    .online_games_card_container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-content: center;
+    }
+    .online_games_card img{
+        width: 100%;
+    }
+}
+
+
+
+
+/* Mobile Screen */
+@media screen and (max-width:576px) {
+
+    /* Shared Style */
+    .section_title{
+        font-size: 2.3rem;
+    }
+    .online_games_card_container,
+    .play_like_section,
+    .header_section,
+    .navvar {
+        flex-direction: column;
+    }
+
+    .main_logo {
+        margin-bottom: 35px;
+    }
+
+
+
+    /* Play Like Section */
+    .play_like_section_img img {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .play_like_section {
+        padding: 0px 10px;
+        background-size: 133%;
+    }
+    .play_like_section h2{
+        font-size: 4.7rem;
+    }
+    .play_like_section h3{
+        font-size: 2.2rem;
+    }
+
+    .play_like_section_content h3 {
+        padding-top: 50px;
+    }
+
+
+
+    /* Online Games Section */
+    .online_games_section{
+        margin-top: 50px;
+        padding: 0px 10px;
+    }
+    .online_games_card_container {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        font-size: .8rem;
+    }
+
+}
