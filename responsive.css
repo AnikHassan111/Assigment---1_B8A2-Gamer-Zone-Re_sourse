@@ -10,9 +10,14 @@
     .play_instant_section {
         flex-direction: column;
     }
+
     /* Shared Style End*/
 
-
+    /* Header section Start */
+    .main_logo{
+        margin-bottom: 22px;
+    }
+    /* Header section End */
     /* Play like Section Start*/
     .play_like_section {
         padding: 20px 55px;
@@ -30,6 +35,7 @@
     .play_like_section h3 {
         font-size: 2.5rem;
     }
+
     /* Play like Section End*/
 
 
@@ -40,21 +46,28 @@
         justify-content: center;
     }
 
-    .online_games_card img {
+    .online_games_card .img {
         width: 100%;
+    }
+
+    .back_ground_hover {
+        width: 353px;
+        height: 412px;
     }
 
     /* online games section End*/
 
 
     /* play instant section Start */
-    .play_instant_section{
+    .play_instant_section {
         gap: 30px;
         text-align: center;
     }
+
     .play_instant_section_font_img img {
         left: -61px;
     }
+
     /* play instant section Start */
 
 }
@@ -124,20 +137,28 @@
         font-size: .8rem;
     }
 
+    .back_ground_hover {
+        width: 345px;
+        height: 402px;
+    }
+
     /* Online Games Section End*/
 
     /* play instant section Start*/
     .play_instant_section {
         gap: 32px;
     }
-    .play_instant_section_content{
+
+    .play_instant_section_content {
         text-align: center;
     }
+
     .play_instant_section_font_img img {
         bottom: -51px;
         left: -31px;
     }
-    .play_instant_section_img{
+
+    .play_instant_section_img {
         margin: 15px;
     }
 
@@ -146,38 +167,61 @@
 
     /* Game Name Section Start */
 
-    .game_name_section_box_container{
+    .game_name_section_box_container {
         gap: 18px;
     }
-    .game_name_section_box img{
+
+    .game_name_section_box img {
         width: 20px;
     }
-    .game_name_section_box h4{
+
+    .game_name_section_box h4 {
         font-size: 8px;
     }
+
     /* Game Name Section End */
 
 
     /* Footer Section Start */
-    
-    .footer_container{
+
+    .footer_container {
         margin: 20px;
     }
-    .para_link{
+
+    .para_link {
         flex-wrap: wrap;
         justify-content: center;
     }
-    .social_media_link{
+
+    .social_media_link {
         flex-wrap: wrap;
         justify-content: center;
     }
-    .treams{
+
+    .treams {
         flex-wrap: wrap;
         justify-content: center;
     }
-    .copy{
+
+    .copy {
         font-size: 14px;
     }
 
     /* Footer Section Start */
+}
+
+
+
+@media screen and (max-width:376px) {
+    .back_ground_hover {
+        width: 315px;
+        height: 370px;
+    }
+}
+
+@media screen and (max-width:321px) {
+    .back_ground_hover {
+        width: 261px;
+        height: 305px;
+    }
 }

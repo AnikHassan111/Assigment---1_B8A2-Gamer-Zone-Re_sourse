@@ -67,7 +67,10 @@ header {
     align-items: center;
     gap: 32px;
 }
-
+.navvar a{
+    text-decoration: none;
+    color: #3C354F;
+}
 .navvar li {
     list-style: none;
 }
@@ -79,6 +82,7 @@ header {
     background-color: rgba(11, 2, 35, 0.10);
     padding: 10px 24px;
     gap: 24px;
+    cursor: pointer;
 }
 
 .navvar_icon img:first-child {
@@ -138,6 +142,7 @@ header {
     color: white;
     border: 0;
     margin-top: 20px;
+    cursor: pointer;
 }
 
 .play_like_btn_2 {
@@ -146,6 +151,7 @@ header {
     background-color: #4EC5F7;
     color: white;
     border: 0;
+    cursor: pointer;
 }
 
 /* play like section End */
@@ -169,7 +175,43 @@ header {
     margin-top: 48px;
     margin-bottom: 120px;
 }
+.online_games_card{
+    position: relative;
+}
+.img1st{
+    width: 98%;
+}
 
+.hover_play{
+    display:none;
+    top: 39%;
+    left: 39%;
+    position: absolute;
+    text-align: center;
+    color: #FF42A5;
+    
+}
+.hover_play img{
+    width: 50px;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+
+}
+.back_ground_hover{
+    display: none;
+    height: 400px;
+    background-color: #000000c9;
+    position: absolute;
+    width: 343px;
+    border-radius: 15px;
+    top: 0px;
+    left: 0;
+}
+
+.online_games_card:hover{
+    .back_ground_hover,.hover_play{
+        display: inline-block;
+    }
+}
 
 
 /* Online Game Section End */
